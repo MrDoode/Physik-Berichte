@@ -1,0 +1,116 @@
+
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{amssymb}
+\usepackage{caption}
+\captionsetup{labelformat=empty}
+
+
+\begin{document}
+
+\title{Praktikumsbericht\\Physikalisches Praktikum\\Frauenhoferbeugung O3}
+\author{Janosch Ehlers, André Mannweiler\\Gruppe C2\\Tutor: Gian-Luca Woynowski}
+\date{Datum d. Versuchsdurchführung:\\06.06.2019}
+\maketitle
+\newpage
+
+\section{Ziel des Versuchs}
+Untersucht werden die Interferenzmuster von Kohärenten Licht an bestimmten Beugungsobjekten.
+\section{Theoretischer Hintergrund}
+Licht lässt sich, unter anderem, als eine überlagerung verschiedenener elektromagnetischer Wellen, verschiedener Wellenlängen im sichtbaren Spektrum beschreiben. Mit einem Laser lassen sich Lichtwellen erzeugen, welche die gleiche Wellenlänge besitzen. Die Wellen sind kohärent. An einem Beugungsobjekt (Bspw. Doppelspalt) entstehen, wie durch das Huygensche Prinzip beschrieben, Kugelwellen, welche nun untereinander Interferieren. Bestrahlt man Beugungsobjekte mit Kohärentem Licht sind die Interferenzeffekte (wie konstruktive und desktruktive Interfrenz) am stärksten, da hier öfter Wellen gleicher Wellenlänge und gleichem Schwingungszustands überlagern. Ist die Länge des Beugungsobjekts entlang der Laserachse deutlich kleiner als der Abstand des Betrachters, sowie der Abstand der Lichtquelle, spricht man von einer Frauenhoferbeugung. Interessant ist nun zu Wissen wie abhängig eines gegebenen Abstand das Inferenzmuster aussieht. Dafür wird eine Funktion (1) gebildet, welche die Lichtintensität ($I$) abhängig von der Auslenkung aus der Laserachse ($\Theta$) zeigt.
+	\begin{equation}
+	I(\Theta )=I_\textsubscript{0}\cdot f\textsubscript{ES}(\Theta )\cdot f\textsubscript{P}(\Theta )
+	\end{equation}
+
+Dabei ist $I\textsubscript{0}$ ein Proportionalitätsfaktor, welcher durch die Lichtintensität des ungebeugten Lichts ersetzt wird. mit:
+	\begin{equation}
+	f\textsubscript{ES}(\Theta )=\frac{\sin^2\left(\frac{b\pi\sin(\Theta )}{\lambda}\right)}{\left(\frac{b\pi\sin(\Theta )}{\lambda}\right)^2}
+	\end{equation}
+	\begin{equation}
+	f\textsubscript{P}(\Theta )=\frac{\sin^2\left(\frac{Nd\pi\sin(\Theta )}{\lambda}\right)}{\sin^2\left(\frac{d\pi\sin(\Theta )}{\lambda}\right)}
+	\end{equation}
+Die Variabel $b$ beschreibt hier die Breite der Spalten, $d$ hingegen beschreibt den Abstand der Spaltmittelpunkte und $\lambda$ wird durch die wellenlände des Lichts ersetzt.
+Die Minima und Maxima bei Eizelspalten sind über (4) definiert.
+	\begin{equation}
+	\sin(\Theta\textsubscript{n})=\frac{n\lambda}{b}
+	\end{equation}
+Hierbei ist $n\in\{\pm 1,\pm 2,\pm 3, ...\}$ für Minima. Für Maxima gilt: $n=\frac{2x+1}{2}\lor 0$\hspace{10mm}$x\in\mathbb{N}$
+Bei Mehrfachspalten und Gitter gilt (5).
+	\begin{equation}
+	\sin(\Theta\textsubscript{n})=\frac{n\lambda}{d}
+	\end{equation}
+Wobei $n\in\{\pm 1,\pm 2,\pm 3, ...\}$
+
+\section{Versuchsaufbau und -durchführung}
+In unserem Versuch wurde ein Laser auf ein Beugungsobjekt ausgerichtet und auf einer dahinterliegenden Aufzeichnungsebene das entstehende Interferenzmuster beobachtet. Die Aufzeichnungsebene wurde durch einen Fototransistor realisiert, welcher über ein Motor bewegt wurde. Vor dem Beugungsobjekt wurde ein Polarisationsfilter verwendet, um die durch zufällige Drehung des Lichts auftretende destruktive Interferenz zu minimieren und die Lichtintensität zu erhöhen. Auch wurde hinter dem Beugungsobjekt eine Zylinderlinse verwendet, welche den Lichtpunkt des Lasers in eine kleine vertikale Linie verlängert, um so einfacher das Signal mit dem Fototransistor zu beobachten. Der Fototransistor erzeugt bei Lichteinfall eine zur Lichtintesität proportionale Spannung. Diese wird in unserem Versuchsaubau durch ein CASSY-System aufgenommen. Gleichzeitig zeichnet das System eine Signalspannung auf die durch den Verschiebereiter erzeugt wird und proportional zu der zurückgelegten Entfernung ist. \\Mit einem Acrylstab der in regelmäßigen Abständen Licht austrahlt, kann der Aufbau nun kalibriert werden. In unserem Fall ist der Abstand der o.g. Abstand 1 cm. So können wir den Kalibrirungsfaktor $K$ nach $\frac{cm}{V}$ bestimmen.
+
+\section{Auswertung}
+\subsection{Messung der geometrischen Dimensionen $b$ und $d$}
+Die Messwerte für die geometrischen Dimensionen $d$ und $b$ sind in Tabelle 1 wiederzufinden. Die Werte wurden durch Messung mit einem Eichobjektträger und einem Eichokular unter dem Mikroskop bestimmt. Dabei wurden Eichobjektträger und Eichokular unter der Linse des Mikroskops übereinander gelegt und das Verhältnis beider zueinander notiert. Der Messbereich des Eichobjektträger liegt bei genau 1 mm. Das Verhältnis von Okular zu Objektträger liegt bei 0,72:1. Über dieses Verhältnis werden die Werte $d$ und $b$ für die Messwerte $x$ und die Anzahl der Spalten $N=20$ des Okulars mit folgender Formel dargestellt: 
+	\begin{equation}
+	\frac{x\cdot 0,72}{20}
+	\end{equation} 
+Es wurden insgesamt 4 Messungen für ein Gitter, einen Doppelspalt sowie zwei Einzelspalten A und B vorgenommen. Der Objektträger weist einen Fehler von $\pm 0,01$ mm.
+\begin{table}
+	\centering
+	\begin{tabular}{c|cc}
+		Objekt & $b$\ [mm] & $d$\ [mm]\\
+		\hline
+		Einzelspalt A & $0,126\pm 0,01$& \\
+		Einzelspalt B & $0,27\pm 0,01$& \\
+		Doppelspalt A & $0,144\pm 0,01$  & $0,61\pm 0,01$\\
+		Gitter & $0,097\pm 0,01$  & $0,13\pm 0,01$\\
+	\end{tabular}
+	\caption*{Tabelle 1: Dimensionen der Beugungsobjekte}
+\end{table}
+
+\subsection{Kalibrieren und justieren des Messaufbaus}
+Eine Kalibrierung wurde vollzogen indem ein Kalibrierungsfaktor $K$ nach Gleichung (7) bestimmt wurde und von dem Computersystem (CASSY) in die grafische Darstellung mit eingerechnet.
+	\begin{equation}
+	K=\frac{s}{\Delta U_\textsubscript{B1}}
+	\end{equation}
+Wobei $s$ die Strecke in cm darstellt und $\Delta U_\textsubscript{B1}$ die Differenz der gemessenen Wegspannung des Verschiebereiters. In unserem Fall ist: $$K=\frac{15}{3,63}\approx 4,13$$
+
+\subsection{Intensitätsverteilung d. Elemente}
+Bei dem Auftragen des Beugungswinkels des Einzelspaltes und Doppelspaltes gegen die Intensität mit dem Cassy-System ergaben sich zwei Ungereimtheiten. Durch einen systematischen Messfehler wurde die vom Phototransistor gemessene Spannung $U\textsubscript{A1}$ im negativen Bereich des Graphen dargestellt. Ein zweiter Messfehler ergab sich durch eine geringe Intensität des Beugungsbildes vom Einzelspalt, welcher theoretisch in der Grafik wie eine Glocke über den Verteilungen des Doppelspalts liegen müsste und nicht darunter. Dieser Fehler wirkt sich allerdings nicht auf unsere Erbegnisse aus, da es sich hier auch einen systematischen Messfehler handelt. 
+
+\subsection{Bestimmung der Wellenlänge}
+Da wir vergessen haben den Wert $\Delta \Theta$ elektronisch zu messen, mussten wir diesen Wert aus der Grafik in Anhang 2 herauslesen. Dafür haben wir diesen Wert mit einem Fehler von $\pm 0,05^\circ$ belastet. Zur berechnung der Wellenlänge aus Messdaten des Einzelspalts kann Gleichung (4) in (8) umgestellt werden:
+	\begin{equation}
+	\lambda =\frac{\sin(\Theta )\cdot b}{n}
+	\end{equation}
+
+Der Messfehler ist hierbei definiert über Gleichung (9)
+	\begin{equation}
+	\Delta\lambda = \sqrt{(\sin(\Theta )\Delta b)^2+(b\cdot (\sin(\Theta )\pm\cos(\Theta )\cdot \Delta\Theta) )^2}
+	\end{equation}
+
+\subsection{Bestimmung der Gitterkonstanten}
+Gesucht ist hier die Spaltabstand des Gitters $d$. Dieser ist definiert über die Wellenlänge $\lambda$, dem betrachteten Intensitätsmaxima/-minima $n$ und der Winkeldifferenz zwischen den betrachteten Intensitätsminima/-maxima $\Theta$. Über Gleichung(10):
+\begin{equation}
+\sin(\Theta )=\frac{n\lambda}{d}\Rightarrow d=\frac{n\lambda}{\sin(\Theta )}
+\end{equation}
+Der Fehler errechnet sich über Gleichung (11):
+\begin{equation}
+\Delta d=\frac{n\Delta\lambda}{\sin(\Theta )}	
+\end{equation}
+
+\subsubsection{Qualitativer Bereich}
+Die gemessenen Werte für den Doppelspalt gleichen der Intensitätsverteilung in Abbildung 2 des Skriptes bis auf die Abstände zwischen den Minima und Maxima, welche bei unserer Messung deutlich geringer sind. Dies könnte darauf zurückgeführt werden, dass ein Doppelspalt mit anderen Werten für $d$ und $b$ verwendet wurde. In unserer Messung ist die Intensität der Einzelspaltkurve deutlich geringer relativ zur Intensität der Doppelspaltkurve. Anders als in der o.g. Abbildung. Die Messwerte für das Gitter weisen deutlich mehr Minima und Maxima auf als in Abbildung 2 des Skriptes. Das kann daran liegen, dass bei unserer Messung ein Gitter mit einem anderen Spaltabstand verwendet wurde. Die drei Maxima mit der höchsten Intensität bei den gemessenen Werten für das Gitter laufen nicht auf einen Punkt zu, sondern besitzen ein Plateau, da hier die Aufnahmekapazität des Phototransistors erreicht war.
+
+\subsection{Zusammenfassung}
+Die Werte weichen stark von den mit dem Mikroskop gemessenen Werten ab. Dies liegt daran, dass bei der Einzelspaltmessung mit bloßem Auge und nicht mit dem CASSY-System die Winkedifferenz bestimmt wurde. Dieser Fehler hat sich somit in allen Berechnungen wiedergespiegelt, da mit der Fehlerbehafteten Wellenlänge gerechnet wurde. Hätten wir die Wellenlängendifferenz mit dem CASSY-System bestimmt wären unsere Werte genauer und der Fehler geringer.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l|cc}
+Berechnung & Messung & Fehler\\
+\hline
+Wellenlänge & 2418,8 nm & 2425 nm\\
+Spaltabstand (DS A) & 1,13 mm & 1,132 mm\\
+Spaltabstand (Gitter) & 0,232 mm & 0,232 mm\\
+\end{tabular}
+\caption{Tabelle 2: Rechenwerte}
+\end{table}
+
+\end{document}

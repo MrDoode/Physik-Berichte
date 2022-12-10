@@ -1,0 +1,190 @@
+Praktikumsbericht
+Physkalisches Paktikum
+Linsen und Augenmodell O1
+von:
+Janosch Ehlers, André Mannweiler
+Gruppe: C2
+Tutor: Gian-Luca Woynowski
+Datum der Versuchsdurchführung:
+27.06.2019
+
+1
+
+1
+
+Versuchsziel
+
+Der Versuch“ Dünne Linsen und Augenmodel“ besteht aus 2 Teilen. In Teil 1 werden die
+Brennweiten von dünnen Streu- und Sammellinsen durch das Bessel-Verfahren und die
+Autokollimation bestimmt. In Teil 2 wird das menschliche Auge nachgebildet und mit
+einer variablen Linse untersucht.
+
+1.1
+1.1.1
+
+Theoretischer Hintergrund
+Teil 1
+
+Methoden der Brennweitenbestimmung Alle hier genannten Gleichungen gelten für dünne
+Linsen, die sich dadurch auszeichnen, dass ihre Dicke im Vergleich zu den Krümmungsradien
+ihrer Oberflächen klein ist. Außerdem besitzen dünne Linsen auf beiden Seiten dieselbe
+Brennweite. Um die Brennweite einer Linse f über die Gegenstandsweite a und die Bildweite b zu berechnen gilt Gleichung 1. Die Gesamtbrennweite f ges einer Linse lässt sich
+über die Addition der beiden einzelnen Brennweiten f 1 und f 2 nach Gleichung 2 errechnen. Wenn zwischen Linsen in einem Linsensystem ein Abstand gemessen werden kann
+gilt Gleichung 3.
+1 1
+1
+= +
+f
+a b
+1
+1
+1
+=
++
+fges
+f1 f2
+1
+1
+1
+c
+=
++
+−
+f ges
+f 1 f 2 f 1f 2
+
+(1)
+(2)
+(3)
+
+Zur Messung einer Brennweite sind zwei Verfahren gebräuchlich. Das Besselverfahren
+und das Autokolimations verfahren. Für das Besserlverfahren muss d > 4f gegeben sein.
+Hierbei können Zwei Linseneinstellungen zwischen Bildebene und gegenstand gewählt
+werden um das Bild Scharf auf einem Projektionsschirm darzustellen. Hierbei steht
+der Abstand e zwischen beiden Linseneinstellungen nach Gleichung 4 in einem Linearen
+Zusammenhang mit der Brennweite der Linse. Das Autokollimationsverfahren benutzt
+einen gänzlich anderen Ansatz. Hier wird der Schirm durch ein Spiegel ausgetauscht. Die
+Bildebene ist nun in der Gegenstandsebene. Grundlage dafür ist die Prämisse, dass die
+Brennweite einer Linse auf beiden Seiten gleich ist.
+1.1.2
+
+Teil 2
+
+Hier wird Versucht ein Menschliches Auge nachzustellen. Das Menschliche Auge benutzt
+eine Variable Linse um zu fokusieren. Dabei wird die Brennweite der Linse Variiert um
+auf Gegenstandsweitenänderungen zu reagieren.
+
+1.2
+1.2.1
+
+Versuchsaufbau
+Besselverfahren
+
+Um die Brennweite einer Sammellinse mithilfe des Bessel-Verfahren zu bestimmen, wird
+ein Gegenstand (Ampelmännchen) vor die Lampe platziert und in einer definierten Ent2
+
+fernung das Licht auf einen Schirm projiziert. Es wird versucht ein möglichst scharfes
+Bild einzustellen, indem man die Linse so lange bewegt bis dies der Fall ist. Für jeden
+Abstand gibt es genau zwei Positionen bei dem die Linse ein scharfes Bild erzeugt. Die
+Linse ist auf einem Verschiebereiter befestigt, an dem der Abstand genau gemessen werden
+kann. Zum Verbessern der Auflösung kann zusätzlich eine Blende zwischen Lampe und
+Blende platziert werden. Die Brennweite einer Zerstreuungslinse wird bestimmt, indem
+man diese mit der zuvor gemessenen Zerstreuungslinse kombiniert. Durch die Messung
+des Gesamtsystems beider Linsen und den Werten der vorherigen Messung kann man
+Werte der Zerstreuungslinse errechnen. Die beiden Linsen werden zusammen in der Linsenhalterung platziert. Danach wird bereits wie beim Bessel-verfahren der Sammellinse
+vorgegangen.
+1.2.2
+
+Autokollimationsverfahren
+
+Die Brennweiten der Sammellinsen und der Zerstreuungslinse soll mithilfe des Autokollimationsverfahrens überprüft werden. Dazu wird der Schirm durch einen Spiegel ersetzt
+und wie oben beschrieben, die Bildebene in der Gegenstandsebene abgebildet. Es wird
+versucht ein möglich scharfes Bild zu erhalten, indem man das Spiegel-Linsensystem verschiebt. Dies macht man für jede Linse zweimal, in dem man sie bei der zweiten Messung
+um ca. 180◦ verschiebt und aus der resultierenden abstandsdifferenz den Mittelwert
+bildet. Dadurch wird der Fehler minimiert, der sich aus dem Ablesefehler und einem
+Aufbaufehler bei dem aufbau der Linse ergibt.
+1.2.3
+
+Augenmodell
+
+Hier wird mit einer variablen Linse gearbeitet. Durch Zugabe von Flüssigkeit in die
+Linse kann diese gedehnt werden. Die Krümmung und Brechkraft dieser wird dadurch
+variiert. Die Anordnung der Elemente am Reiter bleibt die gleiche wie beim BesselVerfahren. Die Irisblende wird jedoch zusätzlich verwendet um das Licht zu achsennahe
+Strahlen zu bündeln. Für die Autokollimation wird die Linse mit 50ml leicht saurem
+Wasser befüllt und solange verschoben bis man ein scharfes Bild erhält. Iterrativ wird
+nun das Füllvolumen um 10 ml erhöht. Da die Brennweite der Linse reziprokporortional
+zu ihrem Füllvolumen ist, kann damit ein Proportionalitätsfaktor ausgerechnet werden.
+Dieser wird im späteren verlauf wichtg. Zusätzlich wird ein weitsichtiges Auge und ein
+weitsichtiges mit Sehhilfe simuliert und die Brennweiten mithilfe des Bessel-Verfahrens
+bestimmt und disskutiert.
+
+2
+2.1
+
+Auswertung
+Versuch 1.1
+
+Die Brennweiten der zuverfügung stehenden Sammellinsen ergab, das Zwei Linsen eine
+ungefähre Brennweite von 15 cm die Dritte Sammellinse hat eine ungefähre Brennweite
+von 7,5 cm.
+
+3
+
+2.2
+
+Versuch 1.2
+
+Zur bestimmung der Brennweite einer Sammellinse, dessen Brennweite im vorhinein auf
+≈ 15 cm geschätzt wurde. Wurde das Besselverfahren verwendet. Da nach Gleichung
+2
+4 ein Linearer Zusammenhang zwischen ed und −4 · f besteht, wurden für verschieden
+2
+große d der Abstand e ermittelt und als ed über d aufgetragen. Wie in ?? Zusehen.
+e2
+=d−4·f
+d
+σn =
+
+v
+u
+u
+t
+
+n
+1 X
+(xi − x)2
+n − 1 i=1
+σn
+∆x = √
+n
+
+(4)
+(5)
+(6)
+(7)
+
+Ausserdem wurde zu den Werten eine Ausgleichsgerade errechnet. Welche ja ebenfalls
+der Form des Linearen Zusammenhangs unterliegen muss. Ihr Ordinatenschnittpunkt
+geteilt durch -4, muss also gleich der gesuchten Brennweite sein, wie in (2) zusehen. Der
+Fehler ∆f berechnet sich nach (3) und (4) Letztendlich ergibt sich eine Brennweite von
+(144, 27 ± 4) mm.
+Der Brennwert der Streulinse lässt sich über (5) und (6) berechnen. Beide Formeln
+definieren die Gesamtbrennweite des Linsensystems als die Summe der reziproken Brennweiten. Gleichung (6) berücksichtigt lediglich den Abstand c zwischen den Linsenmittelebenen. Die Gesamtbrennweite wurde experimentell über das gleich Verfahren ermit2
+telt wie oben beschrieben. Das das entsprechende ed -Diagramm kann ?? entnommen
+werden. Die unzureichende länge des Verschiebereiters verbot es uns das Linsensystem, mit der oben ausgemessenen Sammellinse, mit dem Besselverfahren auszumessen.
+Stattdessen mussten wir die Linse verwenden, welche eine geschätzte Brennweite von 7,5
+cm hat. Für folgende Berechnungen belasteten wir die Linse mit einem Fehler von ±6
+mm. Dies ist die Abweichung, welche die Oben ausgemessene Linse von ihrem geschätzten
+Wert hat. Stellt amn nun Gleichung (5) nach f 1 um, erhält man: Nach der gegenprüfung
+der Brennweiten mittels Autokollimation ergeben sich die in ?? aufgelisteten Werte. Aus
+einem weiteren Versuch konnten wir einen Proportionalitätätsfaktor für (8) errechen.
+f∼
+
+4
+
+1
+V
+
+(8)
+
+
